@@ -525,6 +525,34 @@ footer section i:hover {
 
 }
 
+@media (min-width: 400px) {
+    .lista {
+        padding-bottom: 0;
+}
+
+    .lista-ofertas {
+        width: 63%;
+    }
+
+    .lista-formularios {
+        padding-left: 0;
+        margin-left: 15px;
+        width: 85%;
+    }
+
+    .lista-formularios .href-register {
+        width: 20%;
+    }
+
+    .lista-formularios .href-login {
+        width: 32%;
+    }
+
+    .lista-formularios .href-mis-compras {
+        width: 38%;
+    }
+}
+
 @media (min-width: 561px) {
     
     .main-header {
@@ -563,10 +591,14 @@ footer section i:hover {
     main {
         width: 80%;
     }
+
+    .lista a {
+        font-size: 16px;
+    }
 }
 
 
-@media (min-width: 820px) {
+@media (min-width: 769px) {
 
     main {
         width: 70%;
@@ -575,11 +607,11 @@ footer section i:hover {
     .main-header {
         flex-wrap: wrap;
         align-items: center;
-        padding: 40px;
+        padding: 15px;
     }
 
     header p {
-       font-size: 25px;
+       font-size: 24px;
        padding-bottom: 25px;
        padding-left: 70px;
        padding-top: 20px;
@@ -612,23 +644,30 @@ footer section i:hover {
     }
 
     .cuotas {
-        width: 35%;
+        width: 40%;
     }
 
     .lista {
         justify-content: space-around;
+        padding-bottom: 26px;
     }
+
     .lista a {
-        font-size: 20px;
-        margin: 2px;
+        font-size: 17px;
+        margin: 5px;
     }
 
     .lista-ofertas {
         margin-right: 100px;
+        padding-right: 0;
+        width: 55%;
+        padding-left: 0;
+        margin-left: 15px;
     }
 
     .lista-formularios {
-        margin-left: 100px;
+        margin-left: 10px;
+        width: 85%;
     }
 
     main section article {
@@ -681,10 +720,11 @@ footer section i:hover {
 
     .header-fijo {
        width: 100%;
+       padding-bottom: 0px;
     }
 
     .main-fijo {
-        margin-top: 272px;
+        margin-top: 240px;
     }
 
     .text-field {
@@ -714,24 +754,71 @@ footer section i:hover {
     
     }
 
-    @media (min-width: 1000px) {
+    @media (min-width: 800px) {
 
         .lista-ofertas {
             padding-right: 0;
-        }
+            width: 75%;
+    }
+    
+        .lista-formularios {
+            padding-left: 0;
+            margin-left: 5px;
+            width: 100%;
+    }
+
+        .header-fijo {
+            padding-bottom: 0px;
+    }
+
+        .main-header {
+            padding: 35px;
+    }
+    }
+
+    @media (min-width: 1000px) {
+
+        .lista a {
+            font-size: 20px;
+    }
+    
+        .lista-ofertas {
+            padding-right: 0;
+            width: 80%;
+    }
+    
+        .lista-formularios {
+            padding-left: 0;
+            margin-left: 15px;
+            width: 85%;
+    }
 
         .label-register {
             font-size: 14px;
-        }
+    }
 
         .label-register-nacimiento {
             font-size: 19px;
-        }
+    }
 
         .main-header {
             padding: 60px;
+    }
+
+    }
+
+    @media (min-width: 1500px) {
+
+        .lista a {
+            font-size: 22px;
         }
 
     }
 
+    @media (min-width: 1700px) {
+
+        .lista a {
+            font-size: 24px;
+        }
     
+    }
